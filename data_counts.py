@@ -13,7 +13,10 @@ def ids(f):
 if __name__ == '__main__':
     out = {}
     for k, f in FILES.items():
-        out[k] = {'file': f, 'sha256_16': hashlib.sha256(open(D + f, 'rb').read()).hexdigest()[:16],
+        # Zenodo から取った元ファイルはファイルそのもの、作り直す派生データは展開した中身で取る（gzip のヘッダーには作った時刻が入るため。11/5 まっさらな写しの再現で判明）
+        h = {'sha256_16': hashlib.sha256(open(D + f, 'rb').read()).hexdigest()[:16]} if k in ('essen', 'mtc-ann', 'fsinst') else \
+            {'content_sha256_16': hashlib.sha256(gzip.open(D + f, 'rb').read()).hexdigest()[:16]}
+        out[k] = {'file': f, **h,
                   'tunes': len(ids(f)), 'families': families(f), 'phrases_4_16': sum(4 <= len(p) <= 16 for _, p in phrases_mtc(D + f))}
     for k in ('essen', 'mtc-ann', 'fsinst'):   # 総当たりできない(異なる音列が CAP を超える)フレーズの本数。重複除去前
         out[k]['over_cap'] = sum(len(all_paths(p)) > CAP for _, p in phrases_mtc(D + FILES[k]) if 4 <= len(p) <= 16)

@@ -25,21 +25,21 @@
  },
  "fsinst_vocal": {
   "file": "fsinst_vocal.jsonl.gz",
-  "sha256_16": "e293a270d0ec578c",
+  "content_sha256_16": "ecb792136cd998b9",
   "tunes": 9195,
   "families": 2286,
   "phrases_4_16": 57300
  },
  "fsinst_instrumental": {
   "file": "fsinst_instrumental.jsonl.gz",
-  "sha256_16": "55ae7eac78d86391",
+  "content_sha256_16": "5f9f0e6825d006bc",
   "tunes": 8914,
   "families": 3249,
   "phrases_4_16": 36638
  },
  "fsinst_disjoint": {
   "file": "fsinst_disjoint.jsonl.gz",
-  "sha256_16": "7a8fcde56c2b2cba",
+  "content_sha256_16": "1e73f1e418a2e64b",
   "tunes": 17749,
   "families": 5097,
   "phrases_4_16": 74637
