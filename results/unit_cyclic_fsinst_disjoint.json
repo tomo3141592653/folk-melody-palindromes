@@ -1,0 +1,29 @@
+{
+ "command": "unit_cyclic.py data/mtcfeatures/fsinst_disjoint.jsonl.gz",
+ "bands": {
+  "3-5": {
+   "units": 276,
+   "transitions": null,
+   "transitions+beat": null
+  },
+  "6-8": {
+   "units": 411,
+   "transitions": {
+    "n": 17,
+    "O": 13,
+    "E": 5.0,
+    "oe": 2.6,
+    "lo": 1.7647058823529413,
+    "hi": 3.380281690140845
+   },
+   "transitions+beat": {
+    "n": 4,
+    "O": 3,
+    "E": 1.8333333333333333,
+    "oe": 1.6363636363636365,
+    "lo": 0.5,
+    "hi": 2.6666666666666665
+   }
+  }
+ }
+}

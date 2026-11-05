@@ -1,0 +1,76 @@
+{
+ "command": "decomp_periodic.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz min3",
+ "skip": 2,
+ "bands": {
+  "10-12": {
+   "n_phr": 52,
+   "all": {
+    "O": 12.0,
+    "E": 5.489,
+    "O_minus_E": 6.511,
+    "diff_lo": 1.258,
+    "diff_hi": 12.61,
+    "oe": 2.186,
+    "oe_lo": 1.187,
+    "oe_hi": 3.323
+   },
+   "per": {
+    "O": 5.0,
+    "E": 0.844,
+    "O_minus_E": 4.156,
+    "diff_lo": 0.689,
+    "diff_hi": 8.633,
+    "oe": 5.921,
+    "oe_lo": 2.432,
+    "oe_hi": 9.403
+   },
+   "noper": {
+    "O": 7.0,
+    "E": 4.645,
+    "O_minus_E": 2.355,
+    "diff_lo": -2.302,
+    "diff_hi": 7.673,
+    "oe": 1.507,
+    "oe_lo": 0.526,
+    "oe_hi": 2.748
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 0.638
+  },
+  "13-16": {
+   "n_phr": 47,
+   "all": {
+    "O": 6.0,
+    "E": 2.339,
+    "O_minus_E": 3.661,
+    "diff_lo": -0.119,
+    "diff_hi": 8.351,
+    "oe": 2.565,
+    "oe_lo": 0.958,
+    "oe_hi": 4.627
+   },
+   "per": {
+    "O": 2.0,
+    "E": 0.08,
+    "O_minus_E": 1.92,
+    "diff_lo": -0.02,
+    "diff_hi": 5.774,
+    "oe": 24.934,
+    "oe_lo": 0.0,
+    "oe_hi": 30.144
+   },
+   "noper": {
+    "O": 4.0,
+    "E": 2.259,
+    "O_minus_E": 1.741,
+    "diff_lo": -1.252,
+    "diff_hi": 5.566,
+    "oe": 1.77,
+    "oe_lo": 0.444,
+    "oe_hi": 3.468
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 0.524
+  }
+ }
+}

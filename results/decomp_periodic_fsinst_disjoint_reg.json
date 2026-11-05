@@ -1,0 +1,146 @@
+{
+ "command": "decomp_periodic.py data/mtcfeatures/fsinst_disjoint.jsonl.gz reg",
+ "skip": 4,
+ "bands": {
+  "4-6": {
+   "n_phr": 112,
+   "all": {
+    "O": 55.0,
+    "E": 57.5,
+    "O_minus_E": -2.5,
+    "diff_lo": -13.5,
+    "diff_hi": 8.167,
+    "oe": 0.957,
+    "oe_lo": 0.775,
+    "oe_hi": 1.146
+   },
+   "per": {
+    "O": 7.0,
+    "E": 6.0,
+    "O_minus_E": 1.0,
+    "diff_lo": -3.0,
+    "diff_hi": 5.667,
+    "oe": 1.167,
+    "oe_lo": 0.409,
+    "oe_hi": 1.909
+   },
+   "noper": {
+    "O": 48.0,
+    "E": 51.5,
+    "O_minus_E": -3.5,
+    "diff_lo": -15.167,
+    "diff_hi": 7.5,
+    "oe": 0.932,
+    "oe_lo": 0.723,
+    "oe_hi": 1.149
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": -0.4
+  },
+  "7-9": {
+   "n_phr": 830,
+   "all": {
+    "O": 366.0,
+    "E": 342.139,
+    "O_minus_E": 23.861,
+    "diff_lo": -3.463,
+    "diff_hi": 48.888,
+    "oe": 1.07,
+    "oe_lo": 0.99,
+    "oe_hi": 1.144
+   },
+   "per": {
+    "O": 43.0,
+    "E": 16.111,
+    "O_minus_E": 26.889,
+    "diff_lo": 16.989,
+    "diff_hi": 36.722,
+    "oe": 2.669,
+    "oe_lo": 2.169,
+    "oe_hi": 3.195
+   },
+   "noper": {
+    "O": 323.0,
+    "E": 326.028,
+    "O_minus_E": -3.028,
+    "diff_lo": -29.604,
+    "diff_hi": 22.817,
+    "oe": 0.991,
+    "oe_lo": 0.909,
+    "oe_hi": 1.072
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 1.127
+  },
+  "10-12": {
+   "n_phr": 836,
+   "all": {
+    "O": 315.0,
+    "E": 247.74,
+    "O_minus_E": 67.26,
+    "diff_lo": 42.338,
+    "diff_hi": 92.604,
+    "oe": 1.271,
+    "oe_lo": 1.171,
+    "oe_hi": 1.375
+   },
+   "per": {
+    "O": 84.0,
+    "E": 11.542,
+    "O_minus_E": 72.458,
+    "diff_lo": 56.687,
+    "diff_hi": 88.949,
+    "oe": 7.278,
+    "oe_lo": 6.406,
+    "oe_hi": 8.204
+   },
+   "noper": {
+    "O": 231.0,
+    "E": 236.198,
+    "O_minus_E": -5.198,
+    "diff_lo": -28.796,
+    "diff_hi": 19.466,
+    "oe": 0.978,
+    "oe_lo": 0.877,
+    "oe_hi": 1.083
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 1.077
+  },
+  "13-16": {
+   "n_phr": 392,
+   "all": {
+    "O": 130.0,
+    "E": 66.889,
+    "O_minus_E": 63.111,
+    "diff_lo": 45.73,
+    "diff_hi": 82.122,
+    "oe": 1.944,
+    "oe_lo": 1.687,
+    "oe_hi": 2.229
+   },
+   "per": {
+    "O": 33.0,
+    "E": 2.033,
+    "O_minus_E": 30.967,
+    "diff_lo": 20.775,
+    "diff_hi": 42.645,
+    "oe": 16.236,
+    "oe_lo": 11.786,
+    "oe_hi": 22.29
+   },
+   "noper": {
+    "O": 97.0,
+    "E": 64.856,
+    "O_minus_E": 32.144,
+    "diff_lo": 16.687,
+    "diff_hi": 48.432,
+    "oe": 1.496,
+    "oe_lo": 1.263,
+    "oe_hi": 1.766
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 0.491
+  }
+ }
+}

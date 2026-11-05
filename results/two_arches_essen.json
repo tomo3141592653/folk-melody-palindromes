@@ -1,0 +1,7 @@
+{
+ "command": "two_arches.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz",
+ "retrograde_10_16": 282,
+ "その他": 75,
+ "2つの回文の並び": 191,
+ "ふつうの回文": 16
+}

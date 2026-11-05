@@ -1,0 +1,12 @@
+{
+ "command": "paper_classes.py data/mtcfeatures/MTC-ANN-2.0.1_sequences-1.1.jsonl.gz",
+ "n": 1890,
+ "symmetric": 119,
+ "classes": {
+  "retrograde": 82,
+  "RI": 16,
+  "multiple": 13,
+  "回転+反転(表に無い)": 4,
+  "translation": 4
+ }
+}

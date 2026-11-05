@@ -1,0 +1,12 @@
+{
+ "command": "paper_classes.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz",
+ "n": 44765,
+ "symmetric": 4401,
+ "classes": {
+  "retrograde": 2579,
+  "RI": 773,
+  "translation": 351,
+  "multiple": 658,
+  "回転+反転(表に無い)": 40
+ }
+}

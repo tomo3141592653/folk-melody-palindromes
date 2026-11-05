@@ -1,0 +1,348 @@
+{
+ "command": "reversible_by_region.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz",
+ "groups": {
+  "island": {
+   "N": 8,
+   "rev": 0,
+   "pal": 0,
+   "range": 36,
+   "nnotes": 31
+  },
+  "steier": {
+   "N": 55,
+   "rev": 0,
+   "pal": 0,
+   "range": 650,
+   "nnotes": 344
+  },
+  "norge": {
+   "N": 7,
+   "rev": 0,
+   "pal": 0,
+   "range": 53,
+   "nnotes": 36
+  },
+  "ellas": {
+   "N": 2,
+   "rev": 0,
+   "pal": 0,
+   "range": 13,
+   "nnotes": 9
+  },
+  "emmenth": {
+   "N": 7,
+   "rev": 0,
+   "pal": 0,
+   "range": 53,
+   "nnotes": 40
+  },
+  "entlebug": {
+   "N": 5,
+   "rev": 0,
+   "pal": 0,
+   "range": 48,
+   "nnotes": 24
+  },
+  "oberhas": {
+   "N": 13,
+   "rev": 0,
+   "pal": 0,
+   "range": 96,
+   "nnotes": 61
+  },
+  "eire": {
+   "N": 4,
+   "rev": 0,
+   "pal": 0,
+   "range": 34,
+   "nnotes": 23
+  },
+  "brabant": {
+   "N": 3,
+   "rev": 0,
+   "pal": 0,
+   "range": 16,
+   "nnotes": 13
+  },
+  "siebethl": {
+   "N": 12,
+   "rev": 0,
+   "pal": 0,
+   "range": 106,
+   "nnotes": 57
+  },
+  "suomi": {
+   "N": 4,
+   "rev": 0,
+   "pal": 0,
+   "range": 32,
+   "nnotes": 25
+  },
+  "vlaandr": {
+   "N": 10,
+   "rev": 0,
+   "pal": 0,
+   "range": 86,
+   "nnotes": 53
+  },
+  "appenzel": {
+   "N": 1,
+   "rev": 0,
+   "pal": 0,
+   "range": 5,
+   "nnotes": 4
+  },
+  "juedisch": {
+   "N": 4,
+   "rev": 0,
+   "pal": 0,
+   "range": 25,
+   "nnotes": 19
+  },
+  "belgium": {
+   "N": 4,
+   "rev": 0,
+   "pal": 0,
+   "range": 35,
+   "nnotes": 22
+  },
+  "deut": {
+   "N": 20416,
+   "rev": 826,
+   "pal": 168,
+   "range": 161309,
+   "nnotes": 99845
+  },
+  "kindr": {
+   "N": 576,
+   "rev": 55,
+   "pal": 13,
+   "range": 3936,
+   "nnotes": 2277
+  },
+  "czech": {
+   "N": 127,
+   "rev": 4,
+   "pal": 0,
+   "range": 983,
+   "nnotes": 604
+  },
+  "danmark": {
+   "N": 33,
+   "rev": 0,
+   "pal": 0,
+   "range": 267,
+   "nnotes": 165
+  },
+  "england": {
+   "N": 17,
+   "rev": 2,
+   "pal": 0,
+   "range": 136,
+   "nnotes": 87
+  },
+  "france": {
+   "N": 54,
+   "rev": 5,
+   "pal": 2,
+   "range": 409,
+   "nnotes": 271
+  },
+  "magyar": {
+   "N": 141,
+   "rev": 9,
+   "pal": 1,
+   "range": 1108,
+   "nnotes": 656
+  },
+  "polska": {
+   "N": 80,
+   "rev": 0,
+   "pal": 0,
+   "range": 673,
+   "nnotes": 386
+  },
+  "suisse": {
+   "N": 382,
+   "rev": 14,
+   "pal": 3,
+   "range": 3115,
+   "nnotes": 1935
+  },
+  "lothr": {
+   "N": 264,
+   "rev": 11,
+   "pal": 1,
+   "range": 2131,
+   "nnotes": 1331
+  },
+  "neder": {
+   "N": 341,
+   "rev": 17,
+   "pal": 3,
+   "range": 2491,
+   "nnotes": 1657
+  },
+  "ukrain": {
+   "N": 48,
+   "rev": 2,
+   "pal": 1,
+   "range": 375,
+   "nnotes": 226
+  },
+  "romani": {
+   "N": 89,
+   "rev": 2,
+   "pal": 0,
+   "range": 755,
+   "nnotes": 444
+  },
+  "ussr": {
+   "N": 106,
+   "rev": 4,
+   "pal": 1,
+   "range": 903,
+   "nnotes": 543
+  },
+  "tirol": {
+   "N": 70,
+   "rev": 3,
+   "pal": 0,
+   "range": 724,
+   "nnotes": 384
+  },
+  "luxemb": {
+   "N": 30,
+   "rev": 1,
+   "pal": 1,
+   "range": 230,
+   "nnotes": 143
+  },
+  "elsass": {
+   "N": 337,
+   "rev": 14,
+   "pal": 6,
+   "range": 2696,
+   "nnotes": 1675
+  },
+  "jugos": {
+   "N": 236,
+   "rev": 14,
+   "pal": 1,
+   "range": 1829,
+   "nnotes": 1119
+  },
+  "oestr": {
+   "N": 402,
+   "rev": 11,
+   "pal": 2,
+   "range": 3896,
+   "nnotes": 2185
+  },
+  "sverig": {
+   "N": 33,
+   "rev": 0,
+   "pal": 0,
+   "range": 273,
+   "nnotes": 186
+  },
+  "italia": {
+   "N": 31,
+   "rev": 0,
+   "pal": 0,
+   "range": 227,
+   "nnotes": 144
+  },
+  "usa": {
+   "N": 14,
+   "rev": 1,
+   "pal": 1,
+   "range": 105,
+   "nnotes": 62
+  },
+  "brasil": {
+   "N": 2,
+   "rev": 0,
+   "pal": 0,
+   "range": 15,
+   "nnotes": 9
+  },
+  "canada": {
+   "N": 4,
+   "rev": 0,
+   "pal": 0,
+   "range": 33,
+   "nnotes": 17
+  },
+  "mexico": {
+   "N": 24,
+   "rev": 0,
+   "pal": 0,
+   "range": 196,
+   "nnotes": 102
+  },
+  "ashsham": {
+   "N": 13,
+   "rev": 0,
+   "pal": 0,
+   "range": 100,
+   "nnotes": 67
+  },
+  "turkiye": {
+   "N": 7,
+   "rev": 2,
+   "pal": 0,
+   "range": 47,
+   "nnotes": 32
+  },
+  "java": {
+   "N": 8,
+   "rev": 1,
+   "pal": 0,
+   "range": 62,
+   "nnotes": 34
+  },
+  "nippon": {
+   "N": 2,
+   "rev": 0,
+   "pal": 0,
+   "range": 13,
+   "nnotes": 8
+  },
+  "shanx": {
+   "N": 1761,
+   "rev": 20,
+   "pal": 2,
+   "range": 20842,
+   "nnotes": 10557
+  },
+  "china": {
+   "N": 40,
+   "rev": 0,
+   "pal": 0,
+   "range": 462,
+   "nnotes": 201
+  },
+  "han": {
+   "N": 4941,
+   "rev": 229,
+   "pal": 22,
+   "range": 46471,
+   "nnotes": 23984
+  },
+  "natmn": {
+   "N": 845,
+   "rev": 34,
+   "pal": 5,
+   "range": 8580,
+   "nnotes": 4312
+  },
+  "arabic": {
+   "N": 11,
+   "rev": 0,
+   "pal": 0,
+   "range": 81,
+   "nnotes": 59
+  }
+ }
+}

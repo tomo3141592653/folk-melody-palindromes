@@ -1,0 +1,212 @@
+{
+ "essen": {
+  "command": "two_pal_oe.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 1.02,
+    "lo": 0.82,
+    "hi": 1.21
+   },
+   "7-9": {
+    "oe": 1.14,
+    "lo": 1.04,
+    "hi": 1.25
+   },
+   "10-12": {
+    "oe": 1.33,
+    "lo": 1.14,
+    "hi": 1.52
+   },
+   "13-16": {
+    "oe": 1.9,
+    "lo": 1.2,
+    "hi": 2.67
+   }
+  },
+  "beta1": {
+   "est": 0.077,
+   "lo": 0.011,
+   "hi": 0.143
+  }
+ },
+ "fsinst_prespecified": {
+  "command": "two_pal_oe.py data/mtcfeatures/MTC-FS-INST-2.0_sequences-1.1.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 1.0,
+    "lo": 0.85,
+    "hi": 1.15
+   },
+   "7-9": {
+    "oe": 1.1,
+    "lo": 1.03,
+    "hi": 1.18
+   },
+   "10-12": {
+    "oe": 1.26,
+    "lo": 1.15,
+    "hi": 1.35
+   },
+   "13-16": {
+    "oe": 1.96,
+    "lo": 1.68,
+    "hi": 2.26
+   }
+  },
+  "beta1": {
+   "est": 0.153,
+   "lo": 0.118,
+   "hi": 0.187
+  }
+ },
+ "fsinst_disjoint_conditioned": {
+  "command": "disjoint_conditioned.py data/mtcfeatures/fsinst_disjoint.jsonl.gz orig",
+  "bands": {
+   "4-6": {
+    "oe": 0.94,
+    "lo": 0.74,
+    "hi": 1.16
+   },
+   "7-9": {
+    "oe": 1.09,
+    "lo": 1.01,
+    "hi": 1.17
+   },
+   "10-12": {
+    "oe": 1.27,
+    "lo": 1.18,
+    "hi": 1.38
+   },
+   "13-16": {
+    "oe": 1.95,
+    "lo": 1.66,
+    "hi": 2.25
+   }
+  },
+  "beta1": {
+   "est": 0.169,
+   "lo": 0.13,
+   "hi": 0.217
+  }
+ },
+ "fsinst_vocal": {
+  "command": "two_pal_oe.py data/mtcfeatures/fsinst_vocal.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 0.93,
+    "lo": 0.77,
+    "hi": 1.1
+   },
+   "7-9": {
+    "oe": 1.1,
+    "lo": 1.02,
+    "hi": 1.17
+   },
+   "10-12": {
+    "oe": 1.24,
+    "lo": 1.12,
+    "hi": 1.36
+   },
+   "13-16": {
+    "oe": 1.88,
+    "lo": 1.55,
+    "hi": 2.3
+   }
+  },
+  "beta1": {
+   "est": 0.167,
+   "lo": 0.109,
+   "hi": 0.214
+  }
+ },
+ "fsinst_instrumental": {
+  "command": "two_pal_oe.py data/mtcfeatures/fsinst_instrumental.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 1.2,
+    "lo": 0.96,
+    "hi": 1.44
+   },
+   "7-9": {
+    "oe": 1.11,
+    "lo": 0.97,
+    "hi": 1.25
+   },
+   "10-12": {
+    "oe": 1.29,
+    "lo": 1.13,
+    "hi": 1.46
+   },
+   "13-16": {
+    "oe": 2.05,
+    "lo": 1.63,
+    "hi": 2.5
+   }
+  },
+  "beta1": {
+   "est": 0.123,
+   "lo": 0.065,
+   "hi": 0.178
+  }
+ },
+ "essen_de": {
+  "command": "two_pal_oe.py data/mtcfeatures/essen_de.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 1.02,
+    "lo": 0.8,
+    "hi": 1.25
+   },
+   "7-9": {
+    "oe": 1.19,
+    "lo": 1.07,
+    "hi": 1.31
+   },
+   "10-12": {
+    "oe": 1.39,
+    "lo": 1.13,
+    "hi": 1.7
+   },
+   "13-16": {
+    "oe": 3.08,
+    "lo": 1.56,
+    "hi": 4.91
+   }
+  },
+  "beta1": {
+   "est": 0.113,
+   "lo": 0.013,
+   "hi": 0.206
+  }
+ },
+ "essen_cn": {
+  "command": "two_pal_oe.py data/mtcfeatures/essen_cn.jsonl.gz global",
+  "bands": {
+   "4-6": {
+    "oe": 0.91,
+    "lo": 0.62,
+    "hi": 1.23
+   },
+   "7-9": {
+    "oe": 1.0,
+    "lo": 0.82,
+    "hi": 1.2
+   },
+   "10-12": {
+    "oe": 1.28,
+    "lo": 1.01,
+    "hi": 1.58
+   },
+   "13-16": {
+    "oe": 1.37,
+    "lo": 0.64,
+    "hi": 2.15
+   }
+  },
+  "beta1": {
+   "est": 0.084,
+   "lo": -0.011,
+   "hi": 0.16
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "essen": {
+  "file": "essen_sequences-1.1.jsonl.gz",
+  "sha256_16": "696141b86a226ded",
+  "tunes": 8469,
+  "families": 0,
+  "phrases_4_16": 44765,
+  "over_cap": 2
+ },
+ "mtc-ann": {
+  "file": "MTC-ANN-2.0.1_sequences-1.1.jsonl.gz",
+  "sha256_16": "6316ab402994ba59",
+  "tunes": 360,
+  "families": 26,
+  "phrases_4_16": 1890,
+  "over_cap": 0
+ },
+ "fsinst": {
+  "file": "MTC-FS-INST-2.0_sequences-1.1.jsonl.gz",
+  "sha256_16": "5b7d2f1c277cfac6",
+  "tunes": 18109,
+  "families": 5102,
+  "phrases_4_16": 93938,
+  "over_cap": 4
+ },
+ "fsinst_vocal": {
+  "file": "fsinst_vocal.jsonl.gz",
+  "sha256_16": "e293a270d0ec578c",
+  "tunes": 9195,
+  "families": 2286,
+  "phrases_4_16": 57300
+ },
+ "fsinst_instrumental": {
+  "file": "fsinst_instrumental.jsonl.gz",
+  "sha256_16": "55ae7eac78d86391",
+  "tunes": 8914,
+  "families": 3249,
+  "phrases_4_16": 36638
+ },
+ "fsinst_disjoint": {
+  "file": "fsinst_disjoint.jsonl.gz",
+  "sha256_16": "7a8fcde56c2b2cba",
+  "tunes": 17749,
+  "families": 5097,
+  "phrases_4_16": 74637
+ },
+ "cap": 5000,
+ "ann_in_fsinst": 360,
+ "disjoint_removed_phrases": 19301
+}

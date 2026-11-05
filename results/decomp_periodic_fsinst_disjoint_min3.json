@@ -1,0 +1,76 @@
+{
+ "command": "decomp_periodic.py data/mtcfeatures/fsinst_disjoint.jsonl.gz min3",
+ "skip": 4,
+ "bands": {
+  "10-12": {
+   "n_phr": 134,
+   "all": {
+    "O": 33.0,
+    "E": 15.943,
+    "O_minus_E": 17.057,
+    "diff_lo": 7.36,
+    "diff_hi": 27.684,
+    "oe": 2.07,
+    "oe_lo": 1.479,
+    "oe_hi": 2.691
+   },
+   "per": {
+    "O": 23.0,
+    "E": 2.736,
+    "O_minus_E": 20.264,
+    "diff_lo": 12.3,
+    "diff_hi": 29.189,
+    "oe": 8.407,
+    "oe_lo": 6.813,
+    "oe_hi": 9.862
+   },
+   "noper": {
+    "O": 10.0,
+    "E": 13.207,
+    "O_minus_E": -3.207,
+    "diff_lo": -8.497,
+    "diff_hi": 3.095,
+    "oe": 0.757,
+    "oe_lo": 0.34,
+    "oe_hi": 1.246
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 1.188
+  },
+  "13-16": {
+   "n_phr": 133,
+   "all": {
+    "O": 25.0,
+    "E": 7.739,
+    "O_minus_E": 17.261,
+    "diff_lo": 9.445,
+    "diff_hi": 26.234,
+    "oe": 3.23,
+    "oe_lo": 2.307,
+    "oe_hi": 4.3
+   },
+   "per": {
+    "O": 17.0,
+    "E": 0.75,
+    "O_minus_E": 16.25,
+    "diff_lo": 8.704,
+    "diff_hi": 24.702,
+    "oe": 22.655,
+    "oe_lo": 16.957,
+    "oe_hi": 33.353
+   },
+   "noper": {
+    "O": 8.0,
+    "E": 6.989,
+    "O_minus_E": 1.011,
+    "diff_lo": -3.82,
+    "diff_hi": 6.343,
+    "oe": 1.145,
+    "oe_lo": 0.436,
+    "oe_hi": 1.931
+   },
+   "additive_check": true,
+   "share_of_excess_periodic": 0.941
+  }
+ }
+}

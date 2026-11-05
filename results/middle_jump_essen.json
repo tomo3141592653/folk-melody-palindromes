@@ -1,0 +1,9 @@
+{
+ "command": "middle_jump.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz",
+ "positions": {
+  "1": 3,
+  "2": 11,
+  "3": 6
+ },
+ "n": 20
+}

@@ -1,0 +1,29 @@
+{
+ "command": "unit_cyclic.py data/mtcfeatures/essen_sequences-1.1.jsonl.gz",
+ "bands": {
+  "3-5": {
+   "units": 211,
+   "transitions": null,
+   "transitions+beat": null
+  },
+  "6-8": {
+   "units": 110,
+   "transitions": {
+    "n": 5,
+    "O": 1,
+    "E": 1.6666666666666665,
+    "oe": 0.6000000000000001,
+    "lo": 0.0,
+    "hi": 1.8000000000000003
+   },
+   "transitions+beat": {
+    "n": 1,
+    "O": 1,
+    "E": 0.6666666666666666,
+    "oe": 1.5,
+    "lo": 1.5,
+    "hi": 1.5
+   }
+  }
+ }
+}

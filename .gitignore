@@ -1,0 +1,3 @@
+data/mtcfeatures/*.jsonl.gz
+data/mtcfeatures/LICENCE_Data
+__pycache__/

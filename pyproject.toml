@@ -1,0 +1,9 @@
+[project]
+name = "folk-melody-palindromes"
+version = "1.0.0"
+description = "Code and ledgers for: Whole-phrase symmetry in folk melodies under a transition-preserving null"
+requires-python = "==3.13.*"
+dependencies = ["numpy==2.2.6", "scipy==1.17.0", "matplotlib==3.10.8"]
+
+[tool.uv]
+package = false
